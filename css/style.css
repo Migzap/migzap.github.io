@@ -1,0 +1,83 @@
+.cont{
+	max-width: 1000px;
+}
+h3, .porqyo{
+	text-align: center;
+}
+body{
+	font-family: thomas;
+}
+/*CaB*/
+header {
+	background: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.6)),url('../img/code-2620118_1920.jpg');
+	background-size: cover;
+	height: 100vh;
+	color: white;
+	box-shadow: 30px 30px #fcfcfc;
+	
+}
+header nav{
+	margin:0 auto;
+}
+header nav a{
+	color: white;
+}
+header .img-cab{
+	margin: 25vh;
+}
+header .titulo{
+	background: rgba(247,240,255,.2);
+	width:800px;
+	text-align: center;
+	padding: 40px;
+	border-radius: 10px;
+}
+/*endCaB*/
+
+/*main*/
+main section{
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+.imgso{
+	margin-left: 90px;
+}
+
+.img-sobremi{
+	max-width: 391px !important;
+}
+.textsobre{
+	width: 327px;
+	margin-left: 30px;
+}
+
+/*------------------------------------------------------------------*/
+
+.porqyo{
+	background-color: black;
+	height: 50vh;
+	margin-top:40px; 
+	color: white;
+}
+/*------------------------------------------------------------------*/
+.contactame{
+	
+}
+
+
+
+/*endmain*/
+footer{
+	background: black;
+	color: white;
+	height: 10vh;
+}
+footer section{
+	max-width: 1000px;
+	margin: auto;
+	justify-content: space-between;
+}
+footer img{
+	max-width: 24px
+}

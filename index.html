@@ -2,13 +2,16 @@
 <html>
 	<head>
 		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no">
 		<title>Miguel Leonice</title>
 		<link rel="stylesheet" href="css/bootstrap.min.css" />
+		<link rel="stylesheet" href="css/style.css" />
+		
 	</head>
 	<body>
-		<main style="max-width: 1000px;margin: auto;">
+		
 			<header>
-				<nav class="justify-content-around d-flex mt-3">
+				<nav class="justify-content-between cont d-flex p-2">
 					<p>Miguel Leonice</p>
 					<ul class="nav">
 						<li class="">
@@ -23,7 +26,7 @@
 					</ul>
 				</nav>
 				
-				<div class="img-cab">
+				<div class="img-cab d-flex justify-content-center">
 					<div class="contenedor titulo">
 						<h1>Diseño y Desarrollo Web a Medida</h1>
 						<h2>Desarrollemos juntos la web de tus sueños</h2>
@@ -31,7 +34,89 @@
 					</div>
 				</div>
 			</header>
+		<main>	
+			<section class="sobremi mt-3">
+				<h3>Sobre mi</h3>
+				<div class="d-flex  mt-3">
+					
+					<div class="imgso">
+						<div class="img-sobremi mx-auto">
+							 <img class="img-fluid" src="img/laptop-2838917_1920.jpg" alt="" />
+						</div> 
+					 </div>
+					<div class="textsobre">
+						<p>
+							Mi nombre es Miguel Leonice y soy desarrollador web full-stack. Tengo experiencias en proyectos freelancer.
+						</p>
+						<p>
+							Siempre utilizo las ultimas tecnologias de desarrollo: PHP 7,Mysql, HTML5, CSS3, javaScript,Bootstrap. 
+						</p>
+						<p>
+							Si quieres desarrollar una web a medida y moderna que se adapte a todos los dispositivos solo debes contactarme.
+						</p>
+				    </div>
+				</div>
+			</section>
+			
+			<div class="porqyo">
+				<section class="pt-4">
+					<h3>¿Por que yo?</h3>
+					<div class="row mt-4">
+						<div class="col">
+							<img src="img/velocidad.png" alt="" />
+							<h5>Velocidad</h5>
+							<p>Dependiendo de la cantidad de contenido del sito, me aseguro de que cargue entre 2 a 4 segundos.
+								Si tardara mas la mayoria de los usuarios no volverian a visitar el sitio web</p>
+						</div>
+						<div class="col">
+							<img src="img/mantenimiento.png" alt="" />
+							<h5>Mantenimiento</h5>
+							<p>Mantengo comunicacion con los clientes para ayudarles con cualquier duda o cambio que quieran realizar a sus sitios web</p>
+						</div>
+						<div class="col">
+							<img src="img/mobile2.png" alt="" />
+							<h5>Diseño responsivo</h5>
+							<p>Cada vez mas personas navegan desde sus celulares en cualquier parte del mundo. Me aseguro de que tu web esté optimizada para cualquier tipo de dispositivo móvil</p>
+						</div>
+					</div>
+				</section>
+			</div>
+			
+			<section class="mt-5">
+				<div class="row">
+					<div class="col"></div>
+					<div class="col-8">
+						<form action="#">
+							<h3>Contactame</h3>
+							<div class="form-group mt-5">
+								<input class="form-control" type="text" placeholder="Escribe tu nombre y apellido" />
+							</div>
+							<div class="form-group mt-2">
+								<input class="form-control" type="text" placeholder="Ingresa tu direcion de correo" />
+							</div>
+							<div class="form-group mt-2">
+								<textarea class="form-control" name="" placeholder="Dejame tu mensaje" id="" cols="30" rows="10"></textarea>
+							</div>
+						</form>
+						<button class="btn btn-info w-25 mr-0">Enviar</button>
+					</div>
+					<div class="col"></div>
+				</div>
+			</section>
 		</main>
+		
+		<footer class="pt-3 mt-5">
+			<section class="d-flex ">
+				<div>
+					<p class="text-center">Todos los derechos reservados</p></div>
+				<div >
+					<ul class="nav">
+						<li ><img src="img/mail-icon.png" alt="" /></li>
+						<li class="mx-2"><img src="img/github.png" alt="" /></li
+						<li ><img src="img/whatsapp-icon.png" alt="" /></li>
+					</ul>
+				</div></section>
+		</footer>
 		
 	</body>
 </html>
