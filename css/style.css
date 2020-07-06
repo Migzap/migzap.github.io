@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@500&display=swap');
 .cont{
 	max-width: 1000px;
 }
@@ -5,8 +6,9 @@ h3, .porqyo{
 	text-align: center;
 }
 body{
-	font-family: thomas;
+	font-family: 'Alegreya', sans-serif;
 }
+
 /*CaB*/
 header {
 	background: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.6)),url('../img/code-2620118_1920.jpg');
@@ -21,6 +23,14 @@ header nav{
 }
 header nav a{
 	color: white;
+}
+header nav a:hover{
+	text-decoration: none;
+	color:white;
+}
+header nav li:hover{
+	border-bottom: 3px solid #5d1dff;
+	transition: 200ms;
 }
 header .img-cab{
 	margin: 25vh;
@@ -55,7 +65,7 @@ main section{
 /*------------------------------------------------------------------*/
 
 .porqyo{
-	background-color: black;
+	background-color: #333333;
 	height: 50vh;
 	margin-top:40px; 
 	color: white;
