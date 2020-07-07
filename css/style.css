@@ -91,3 +91,16 @@ footer section{
 footer img{
 	max-width: 24px
 }
+
+@media (max-width: 600px){
+	h1{
+		font-size: 20px;
+		
+	}
+	h2{
+		font-size: 18px;
+	}
+	
+	
+	
+}
