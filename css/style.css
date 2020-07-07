@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@500&display=swap');
 .cont{
 	max-width: 1000px;
+	margin: auto;
 }
 h3, .porqyo{
 	text-align: center;
@@ -21,6 +22,7 @@ header {
 header nav{
 	margin:0 auto;
 }
+
 header nav a{
 	color: white;
 }
@@ -28,8 +30,12 @@ header nav a:hover{
 	text-decoration: none;
 	color:white;
 }
-header nav li:hover{
+.hli:hover{
 	border-bottom: 3px solid #5d1dff;
+	transition: 200ms;
+}
+.hovl:hover {
+	border-bottom: 3px solid #fff;
 	transition: 200ms;
 }
 header .img-cab{
