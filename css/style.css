@@ -61,7 +61,7 @@ main section{
 }
 
 .img-sobremi{
-	max-width: 391px !important;
+	max-width: 391px;
 }
 .textsobre{
 	width: 327px;
@@ -98,15 +98,44 @@ footer img{
 	max-width: 24px
 }
 
-@media (max-width: 600px){
+@media (max-width: 700px){
 	h1{
-		font-size: 20px;
+		font-size: 30px;
 		
 	}
 	h2{
 		font-size: 18px;
 	}
-	
+	header .img-cab{
+		margin: 25vh 0;
+	}
+	.porqyo{
+		
+		height: auto;
+		margin-top: 40px;
+		color: white;
+	}
+	header .titulo{
+		
+		width: 90%;
+		
+	}
+	.imgso{
+		margin-left: auto;
+		padding-bottom: 10px;
+		
+	}
+	.img-sobremi{
+		max-width: 90%;
+	}
+
+	.textsobre{
+		margin: auto;
+		width: 80%;
+	}
+	.xq{
+		width: 90% !important;
+	}
 	
 	
 }
